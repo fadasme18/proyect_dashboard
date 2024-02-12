@@ -1,0 +1,163 @@
+<div class="row">
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-globe text-warning"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">Ejemplo1</p>
+              <p class="card-title">500kWh</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <hr />
+        <div class="stats"><i class="fa fa-refresh"></i> Actualizado ahora</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-money-coins text-success"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">Cobro</p>
+              <p class="card-title">$ 10500</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <hr />
+        <div class="stats"><i class="fa fa-calendar-o"></i> Ayer</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-vector text-danger"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">Sobreconsumo</p>
+              <p class="card-title">23</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <hr />
+        <div class="stats"><i class="fa fa-clock-o"></i> Última hora</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-favourite-28 text-primary"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">Equipos</p>
+              <p class="card-title">36</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">
+        <hr />
+        <div class="stats"><i class="fa fa-refresh"></i> registro actual</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="card-title">Consumos</h5>
+        <p class="card-category">24 horas de registro</p>
+      </div>
+      <div class="card-body">
+        <canvas id="chartHours" width="400" height="100"></canvas>
+      </div>
+      <div class="card-footer">
+        <hr />
+        <div class="stats">
+          <i class="fa fa-history"></i> actualizado 3 minutos atras
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="card-title">ejemplo 2</h5>
+        <p class="card-category">grafico pastel</p>
+      </div>
+      <div class="card-body">
+        <canvas id="chartEmail"></canvas>
+      </div>
+      <div class="card-footer">
+        <div class="legend">
+          <i class="fa fa-circle text-primary"></i> 1
+          <i class="fa fa-circle text-warning"></i> 2
+          <i class="fa fa-circle text-danger"></i> 3
+          <i class="fa fa-circle text-gray"></i> 4
+        </div>
+        <hr />
+        <div class="stats">
+          <i class="fa fa-calendar"></i> Números registrados 4
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card card-chart">
+      <div class="card-header">
+        <h5 class="card-title">Energia consumida</h5>
+        <p class="card-category">Historico</p>
+      </div>
+      <div class="card-body">
+        <canvas id="speedChart" width="400" height="100"></canvas>
+      </div>
+      <div class="card-footer">
+        <div class="chart-legend">
+          <i class="fa fa-circle text-info"></i> Torno 1
+          <i class="fa fa-circle text-warning"></i> sala de control
+        </div>
+        <hr />
+        <div class="card-stats">
+          <i class="fa fa-check"></i> informacion actual
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
